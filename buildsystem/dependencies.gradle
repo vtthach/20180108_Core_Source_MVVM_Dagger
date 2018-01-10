@@ -2,7 +2,6 @@
 // Upgrade rxJava 1 to rxJava 2
 // supportLibraryVersion to 25.0.2
 // dagger to 2.9
-// TODO refactor utilDependencies
 
 allprojects {
     repositories {
@@ -179,6 +178,8 @@ ext {
     ]
 
     testDependency = [
+            supportTestEspreso  : "com.android.support.test.espresso:espresso-core:3.0.1",
+            supportTestRunner  : "com.android.support.test:runner:1.0.1",
             junit              : "junit:junit:${jUnitVersion}",
             mockito            : "org.mockito:mockito-core:${mockitoVersion}",
             powermockJunit     : "org.powermock:powermock-module-junit4:1.6.5",
