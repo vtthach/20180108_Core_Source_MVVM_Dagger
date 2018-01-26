@@ -1,7 +1,4 @@
-// Common dependencies - version : 1.1
-// Upgrade rxJava 1 to rxJava 2
-// supportLibraryVersion to 25.0.2
-// dagger to 2.9
+// 20180126 
 
 allprojects {
     repositories {
@@ -12,7 +9,7 @@ allprojects {
 
 ext {
     //Android
-    androidBuildToolsVersion = "26.0.1"
+    androidBuildToolsVersion = "26.0.2"
     androidMinSdkVersion = 21
     androidTargetSdkVersion = 27
     androidCompileSdkVersion = 27
